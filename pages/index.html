@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Junior Drograria</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+<header>
+    <h1></h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="cadastro.html">Cadastre-se</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <div class="overlay"></div>
+    <div class="banner-conteudo">
+        <h2>Junior Drogaria </h2>
+        <p>Sempre com a solução para você!</p>
+        <br>
+        <a href="#produtos" class="btn-banner">Explorar Produtos</a>
+    </div>
+</section>
+
+<section class="produtos" id="produtos">
+    <div class="card">
+        <img src="https://farmaconde.vtexassets.com/arquivos/ids/196308-1600-900?v=638219222361770000&width=1600&height=900&aspect=true">
+        <h3>Dipirona 500mg/ml Farmace Genérico Gotas Frasco 10ml</h3>
+        <p>R$3,00</p>
+        <button onclick="addCarrinho('Dipirona')">Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://farmaconde.vtexassets.com/arquivos/ids/231778-1200-675?v=639031466876470000&width=1200&height=675&aspect=true">
+        <h3>Curativos Band-Aid Transparentes 40 Unidades</h3>
+        <p>R$17,00</p>
+        <button onclick="addCarrinho('Curativo')">Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://farmaconde.vtexassets.com/arquivos/ids/232494-1200-675?v=639031472008700000&width=1200&height=675&aspect=true">
+        <h3>Shampoo Infantil Johnsons Baby Tradicional Frasco 400ml</h3>
+        <p>R$26,00</p>
+        <button onclick="addCarrinho('Shampoo')">Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://farmaconde.vtexassets.com/arquivos/ids/227063-1200-675?v=638895015564670000&width=1200&height=675&aspect=true">
+        <h3>Principia Protetor Solar Corpo FPS60 Antioleosidade Fluido Toque Seco PS-03 200ml</h3>
+        <p>R$64,00</p>
+        <button onclick="addCarrinho('Protetor')">Comprar</button>
+    </div>
+</section>
+
+<script src="../scripts/loja.js"></script>
+</body>
+</html>
